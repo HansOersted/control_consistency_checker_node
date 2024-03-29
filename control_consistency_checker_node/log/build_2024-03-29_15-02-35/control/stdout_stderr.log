@@ -1,0 +1,37 @@
+running egg_info
+creating build/control/control.egg-info
+writing build/control/control.egg-info/PKG-INFO
+writing dependency_links to build/control/control.egg-info/dependency_links.txt
+writing entry points to build/control/control.egg-info/entry_points.txt
+writing requirements to build/control/control.egg-info/requires.txt
+writing top-level names to build/control/control.egg-info/top_level.txt
+writing manifest file 'build/control/control.egg-info/SOURCES.txt'
+reading manifest file 'build/control/control.egg-info/SOURCES.txt'
+writing manifest file 'build/control/control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/shen/autoware_tools/control/build/control/build
+creating /home/shen/autoware_tools/control/build/control/build/lib
+creating /home/shen/autoware_tools/control/build/control/build/lib/control
+copying control/consistency_checker.py -> /home/shen/autoware_tools/control/build/control/build/lib/control
+copying control/__init__.py -> /home/shen/autoware_tools/control/build/control/build/lib/control
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/shen/autoware_tools/control/install/control/lib/python3.10/site-packages/control
+copying /home/shen/autoware_tools/control/build/control/build/lib/control/consistency_checker.py -> /home/shen/autoware_tools/control/install/control/lib/python3.10/site-packages/control
+copying /home/shen/autoware_tools/control/build/control/build/lib/control/__init__.py -> /home/shen/autoware_tools/control/install/control/lib/python3.10/site-packages/control
+byte-compiling /home/shen/autoware_tools/control/install/control/lib/python3.10/site-packages/control/consistency_checker.py to consistency_checker.cpython-310.pyc
+byte-compiling /home/shen/autoware_tools/control/install/control/lib/python3.10/site-packages/control/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/shen/autoware_tools/control/install/control/share/ament_index
+creating /home/shen/autoware_tools/control/install/control/share/ament_index/resource_index
+creating /home/shen/autoware_tools/control/install/control/share/ament_index/resource_index/packages
+copying resource/control -> /home/shen/autoware_tools/control/install/control/share/ament_index/resource_index/packages
+copying package.xml -> /home/shen/autoware_tools/control/install/control/share/control
+running install_egg_info
+Copying build/control/control.egg-info to /home/shen/autoware_tools/control/install/control/lib/python3.10/site-packages/control-0.0.1-py3.10.egg-info
+running install_scripts
+Installing consistency_checker script to /home/shen/autoware_tools/control/install/control/lib/control
+writing list of installed files to '/home/shen/autoware_tools/control/build/control/install.log'

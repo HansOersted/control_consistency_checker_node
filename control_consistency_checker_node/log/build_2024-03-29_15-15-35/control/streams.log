@@ -1,0 +1,23 @@
+[1.066s] Invoking command in '/home/shen/autoware_tools/control': PYTHONPATH=/home/shen/autoware_tools/control/build/control/prefix_override:/home/shen/autoware_tools/control/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/control build --build-base /home/shen/autoware_tools/control/build/control/build install --record /home/shen/autoware_tools/control/build/control/install.log --single-version-externally-managed
+[1.290s] running egg_info
+[1.291s] writing build/control/control.egg-info/PKG-INFO
+[1.291s] writing dependency_links to build/control/control.egg-info/dependency_links.txt
+[1.291s] writing entry points to build/control/control.egg-info/entry_points.txt
+[1.291s] writing requirements to build/control/control.egg-info/requires.txt
+[1.291s] writing top-level names to build/control/control.egg-info/top_level.txt
+[1.292s] reading manifest file 'build/control/control.egg-info/SOURCES.txt'
+[1.292s] writing manifest file 'build/control/control.egg-info/SOURCES.txt'
+[1.292s] running build
+[1.292s] running build_py
+[1.292s] running install
+[1.292s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.292s]   warnings.warn(
+[1.292s] running install_lib
+[1.293s] running install_data
+[1.293s] running install_egg_info
+[1.295s] removing '/home/shen/autoware_tools/control/install/control/lib/python3.10/site-packages/control-0.0.1-py3.10.egg-info' (and everything under it)
+[1.295s] Copying build/control/control.egg-info to /home/shen/autoware_tools/control/install/control/lib/python3.10/site-packages/control-0.0.1-py3.10.egg-info
+[1.295s] running install_scripts
+[1.312s] Installing consistency_checker script to /home/shen/autoware_tools/control/install/control/lib/control
+[1.312s] writing list of installed files to '/home/shen/autoware_tools/control/build/control/install.log'
+[1.328s] Invoked command in '/home/shen/autoware_tools/control' returned '0': PYTHONPATH=/home/shen/autoware_tools/control/build/control/prefix_override:/home/shen/autoware_tools/control/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/control build --build-base /home/shen/autoware_tools/control/build/control/build install --record /home/shen/autoware_tools/control/build/control/install.log --single-version-externally-managed

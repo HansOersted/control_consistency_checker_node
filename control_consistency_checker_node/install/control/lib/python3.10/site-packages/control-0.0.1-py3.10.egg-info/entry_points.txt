@@ -1,0 +1,3 @@
+[console_scripts]
+consistency_checker = control.consistency_checker:main
+
